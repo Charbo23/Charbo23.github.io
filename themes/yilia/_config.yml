@@ -6,8 +6,8 @@ menu:
 
 # SubNav
 subnav:
-  github: "https://github.com/litten"
-  weibo: "http://weibo.com/litten225"
+  github: "https://github.com/charbo23"
+  weibo: "https://weibo.com/charbo23"
   rss: /atom.xml
   #psn: "#"
   #zhihu: "#"
@@ -61,7 +61,7 @@ google_analytics: false
 favicon: /assets/img/favicon.ico
 
 #你的头像url
-avatar: /assets/blogImg/litten.png
+avatar: /assets/img/charbo.png
 
 #是否开启分享
 share_jia: true
