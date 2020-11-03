@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CBLog</title>
+  
+  <subtitle>Destiny always finds a way</subtitle>
+  <link href="/rss.xml" rel="self"/>
+  
+  <link href="https://charbo.me/"/>
+  <updated>2020-11-03T06:24:43.472Z</updated>
+  <id>https://charbo.me/</id>
+  
+  <author>
+    <name>Charbo</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://charbo.me/hexo/start/hello-world/"/>
+    <id>https://charbo.me/hexo/start/hello-world/</id>
+    <published>2020-11-03T06:24:43.472Z</published>
+    <updated>2020-11-03T06:24:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://charbo.me/categories/hexo/"/>
+    
+      <category term="Start" scheme="https://charbo.me/categories/hexo/start/"/>
+    
+    
+      <category term="Hexo" scheme="https://charbo.me/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MathJax Plugin</title>
+    <link href="https://charbo.me/hexo/plugin/MathJax/"/>
+    <id>https://charbo.me/hexo/plugin/MathJax/</id>
+    <published>2019-07-28T13:48:46.000Z</published>
+    <updated>2020-11-03T06:24:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>f</mi><mrow><mo>(</mo><mi>a</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mi>&#x3C0;</mi><mi>i</mi></mrow></mfrac><msub><mo>&#x222E;</mo><mrow><mi>&#x3B3;</mi></mrow></msub><mfrac><mrow><mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><mrow><mi>z</mi><mo>&#x2212;</mo><mi>a</mi></mrow></mfrac><mi>d</mi><mi>z</mi></mrow></math></p><h3 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h3><p>To enable MathJax support, just set <code>plugins.mathjax = true</code> in your theme <code>_config.yml</code> file.</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Plugins</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">    <span class="string">...</span></span><br><span class="line">    <span class="attr">mathjax:</span> <span class="literal">true</span> <span class="comment"># options: true, false</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>For further MathJax configurations, please edit <code>&lt;theme folder&gt;/layout/plugin/scripts.ejs</code>:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">theme.plugins.mathjax</span>) &#123; %&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- Edit here --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/x-mathjax-config"</span>&gt;</span></span><br><span class="line"><span class="actionscript">        MathJax.Hub.Config(&#123; tex2jax: &#123; inlineMath: [[<span class="string">'$'</span>,<span class="string">'$'</span>], [<span class="string">'\\('</span>,<span class="string">'\\)'</span>]] &#125; &#125;);</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">js</span>('<span class="attr">https:</span>//<span class="attr">cdn.mathjax.org</span>/<span class="attr">mathjax</span>/<span class="attr">latest</span>/<span class="attr">MathJax.js</span>?<span class="attr">config</span>=<span class="string">TeX-MML-AM_CHTML</span>') %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure><h3 id="TeX-and-LaTeX-input"><a href="#TeX-and-LaTeX-input" class="headerlink" title="TeX and LaTeX input"></a>TeX and LaTeX input</h3><blockquote><p><strong>Attention</strong>: Please be noted that when you write Tex/LaTeX in Markdown files, you need to use escape characters to prevent certain signs from being processed by Markdown interpreter.</p></blockquote><h5 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">When $a \ne 0$, there are two solutions to \\(ax^2 + bx + c = 0\\) and they are</span><br><span class="line">$$x = &#123;-b \pm \sqrt&#123;b^2-4ac&#125; \over 2a&#125;.$$</span><br></pre></td></tr></table></figure><h5 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h5><p>When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are<br>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p><h3 id="MathML-input"><a href="#MathML-input" class="headerlink" title="MathML input"></a>MathML input</h3><blockquote><p><strong>Attention</strong>: please be noted that newline characters may be transformed to <code>&lt;br&gt;</code> tag by Markdown interpreter and this will interfere with MathML notation. Please write all MathML inline.</p></blockquote><h5 id="Input-1"><a href="#Input-1" class="headerlink" title="Input"></a>Input</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">When&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;&amp;#x2260;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;, there are two solutions to &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt; &lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt; &lt;mi&gt;c&lt;/mi&gt; &lt;mo&gt;=&lt;/mo&gt; &lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt; and they are</span><br><span class="line">&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;x&lt;/mi&gt; &lt;mo&gt;=&lt;/mo&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;&amp;#x00B1;&lt;/mo&gt;&lt;msqrt&gt;&lt;msup&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/msqrt&gt;&lt;/mrow&gt;&lt;mrow&gt; &lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;a&lt;/mi&gt; &lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;mtext&gt;.&lt;/mtext&gt;&lt;/math&gt;</span><br></pre></td></tr></table></figure><h5 id="Result-1"><a href="#Result-1" class="headerlink" title="Result"></a>Result</h5><p>When<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>&#x2260;</mo><mn>0</mn></math>, there are two solutions to <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo> <mi>b</mi><mi>x</mi><mo>+</mo> <mi>c</mi> <mo>=</mo> <mn>0</mn></math> and they are<br><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>x</mi> <mo>=</mo><mrow><mfrac><mrow><mo>&#x2212;</mo><mi>b</mi><mo>&#x00B1;</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>&#x2212;</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow> <mn>2</mn><mi>a</mi> </mrow></mfrac></mrow><mtext>.</mtext></math></p><h3 id="AsciiMath-input"><a href="#AsciiMath-input" class="headerlink" title="AsciiMath input"></a>AsciiMath input</h3><blockquote><p><strong>Attention</strong>: please be noted that when you write AsciiMath in Markdown files, you need to use escape characters to prevent certain signs from being processed by Markdown interpreter.</p></blockquote><h5 id="Input-2"><a href="#Input-2" class="headerlink" title="Input"></a>Input</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">When \`a != 0\`, there are two solutions to \`ax^2 + bx + c = 0\` and they are&lt;p style=&quot;text-align:center&quot;&gt;\`x = (-b +- sqrt(b^2-4ac))/(2a) .\`&lt;/p&gt;</span><br></pre></td></tr></table></figure><h5 id="Result-2"><a href="#Result-2" class="headerlink" title="Result"></a>Result</h5><p>When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and they are<p style="text-align:center">`x = (-b +- sqrt(b^2-4ac))/(2a) .`</p></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mrow&gt;&lt;mo&gt;(&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;&amp;#x3C0;&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;msub&gt;&lt;mo&gt;&amp;#x222E;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;&amp;#x3B3;&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;(&lt;/mo&gt;&lt;mi&gt;z&lt;/mi&gt;&lt;mo&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;z&lt;/mi&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;z&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Configuration&quot;&gt;&lt;a href=&quot;#Configuration&quot; class=&quot;headerlink&quot; title=&quot;Configuration&quot;&gt;&lt;/a&gt;Configuration&lt;/h3&gt;&lt;p&gt;To enable MathJax support, just set &lt;code&gt;plugins.mathjax = true&lt;/code&gt; in your theme &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Plugins&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;plugins:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;mathjax:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;# options: true, false&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://charbo.me/categories/hexo/"/>
+    
+      <category term="Plugin" scheme="https://charbo.me/categories/hexo/plugin/"/>
+    
+    
+      <category term="Hexo" scheme="https://charbo.me/tags/hexo/"/>
+    
+      <category term="Code" scheme="https://charbo.me/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adding a Thumbnail to Your Article</title>
+    <link href="https://charbo.me/hexo/config/thumbnail/"/>
+    <id>https://charbo.me/hexo/config/thumbnail/</id>
+    <published>2019-07-23T14:42:29.000Z</published>
+    <updated>2020-11-03T06:24:43.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>You can add thumbnail images to your posts in two steps. First, make sure the thumbnail is enabled in the theme’s configuration file:</p><figure class="highlight yaml"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">article:</span></span><br><span class="line">    <span class="attr">thumbnail:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>Then, provide an URL or path to the image file in the front-matter of your post:</p><figure class="highlight yaml"><figcaption><span>post.md</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Getting</span> <span class="string">Started</span> <span class="string">with</span> <span class="string">Icarus</span></span><br><span class="line"><span class="attr">thumbnail:</span> <span class="string">/gallery/thumbnails/desert.jpg</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">Post</span> <span class="string">content...</span></span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="About-thumbnail-image-path"><a href="#About-thumbnail-image-path" class="headerlink" title="About thumbnail image path"></a>About thumbnail image path</h3><p>The image path you put in the front-matter needs to be the relative path to the source directory of your website. For example, if you want to use the following image as a thumbnail:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;your blog&gt;/source/gallery/image.jpg</span><br></pre></td></tr></table></figure><p>You need to use the following as the image path:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/gallery/image.jpg</span><br></pre></td></tr></table></figure><p>Also, it is recommended that you put all the images under a dedicated asset folder that is separated from the <code>_posts</code> folder.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;You can add thumbnail images to your posts in two steps. First, make sure the thumbnail is enabled in the theme’s configuration file:&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;figcaption&gt;&lt;span&gt;_config.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;article:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;thumbnail:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then, provide an URL or path to the image file in the front-matter of your post:&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;figcaption&gt;&lt;span&gt;post.md&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;title:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;Getting&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;Started&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;Icarus&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;thumbnail:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/gallery/thumbnails/desert.jpg&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;Post&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;content...&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://charbo.me/categories/hexo/"/>
+    
+      <category term="Config" scheme="https://charbo.me/categories/hexo/config/"/>
+    
+    
+      <category term="Hexo" scheme="https://charbo.me/tags/hexo/"/>
+    
+      <category term="Code" scheme="https://charbo.me/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记“刺客信条”三部曲：水月镜像，无心去来</title>
+    <link href="https://charbo.me/games/assassins-creed/"/>
+    <id>https://charbo.me/games/assassins-creed/</id>
+    <published>2012-12-18T15:23:00.000Z</published>
+    <updated>2020-11-03T06:24:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Nothing is true, everything is permitted.万物皆虚，万事皆允。        </p></blockquote><p><em>—— 《刺客信条2》《刺客信条：兄弟会》《刺客信条：启示录》-Ezio三部曲</em></p><a id="more"></a><p>多年以前，在朋友的推荐下玩了刺客信条这款游戏，感触挺深，后来想一定要为它写点文字。闭眼一想，还是那句话萦回脑中：我们为了服侍光明而耕耘于黑暗……万物皆虚，万事皆允。却不知道这句话该怎么翻译，被游戏寓意为“信条”的话语，相对于它的题材所包含的深度，好像任何翻译都会带来偏差。很难用几句话描述清楚这部作品，它展现了完全不同的世界与价值，过去与现在，生存与死亡，仇恨与宽容，这些宽泛弘毅的对立词相互交织，在刀刃与鲜血中重获新释，浓缩于主人公Ezio的一生。</p><h2 id="虚"><a href="#虚" class="headerlink" title="虚"></a><strong>虚</strong></h2><p>Ezio诞生于文艺复兴时期的佛罗伦萨，作为银行家的富二代，每日就是游手好闲沾花惹草。还记得游戏的第一个任务就是去打架，然后爬上高楼跟姑娘幽会。生活波澜不惊，基调如翡翠般平和，蓝天白云之下的鲜花之城给予了Ezio太多纨绔子弟的气息。而至于后来，当他每次的任务都要手起刀落快意恩仇，然后安抚亡者的灵魂，当他对深爱的Sophia的请求无奈道出对不起我的时间很宝贵，当他在异乡的深夜给妹妹Claudia满怀深情地写信时，你才会发现，他动荡的内心深处，自有一个不曾惊扰的世界，一个不曾惊扰的翡冷翠。那些逝去的日子，在游戏开头略显无聊的情景，恰如一个简朴的别针，固定在心中最纯粹的角落。</p><p><img src="https://cdn.charbost.com/article-img/ckxt1.jpg" alt="奔波到威尼斯的Ezio">  </p><p>以至于说，何以为正义，真理，信仰，自由？这都是些多么美好的词语，然而都不是Ezio最终想要的，又恰好是他，见过了太多为了这些美好而疯狂追逐，最终坠下深渊的人。好奇害死猫，人又何尝不是？因此，创世的神让人间有了死亡。刺客从天而降，帽檐遮住他的眉宇，和平鸽还不知晓下一刻的慌乱，风起风止间，优雅的袖刃已将迷乱的鲜红绽放。</p><p>Ezio更像一个布道者，将“虚”的信条用死亡的方式传谕。而事物的真实与否，本来就无所谓人的好坏。朋友Leonardo是虚的，他花了很多心里发明战争机器，下一刻就想摧毁它们；叔叔Mario是虚的，一个质朴果敢的领路人，在庄园陷落时便虎落平阳；Niccolo也是虚的，一个满腹经纶兢兢业业的刺客首领，却一度被当作内奸。连Ezio本人也是虚的，从佛罗伦萨的起步，到威尼斯的追寻，再到罗马的复兴，最后到君士坦丁堡的迟暮，其实Ezio最终才认识到，自己不也是为所谓的复仇与荣耀努力了一辈子吗？原来那个最先坠入深渊的人，正是Ezio自己。</p><p><img src="https://cdn.charbost.com/article-img/ckxt2.jpg" alt="刺客从天而降">      </p><p>因此，Ezio最后在和害死了父兄的教皇Rodrigo对峙时，留下这句信条而放过了他（最终反被儿子Cesare毒死）。这一刻，不知手染太多鲜血的刺客大师是否想到了多年前的一尘不染的佛罗伦萨。抉择与变卦，过一分钟就不能再回头。Ezio的身后这座辉煌的城市，原本就是他想终结邪恶，获得荣耀的目的地。如今，城市更加辉煌，以往的日子，爱人，自由，却一并失去了踪影。相对于当下，他知道一切于事无补，反而有一种繁花落尽，悄然入土的随性。他赫然发现Nothing is true原来不是对别人的告诫，而是对自己内心深处最无奈的独白。</p><h2 id="允"><a href="#允" class="headerlink" title="允"></a><strong>允</strong></h2><p>任何一个刺客，加入brotherhood时都要完成一个仪式。他们从城市最高的塔尖上俯瞰全城，然后向着塔底的草堆高高跃下。他们在跃下的那一刻伸展手臂，一种近乎疯狂的自由呼啸而来，将烦恼和恐惧抛诸脑后，你很容易联想到鹰的意象。我们总是可以将道理示于别人，却无法说服自己。这种仪式无疑是对自身的勇敢与自由最好的诠释，刺客们以这样的方式向城市宣告，他们的行为准则秉承信仰，允许他们在法律和道德中掌握邪恶者的生杀大权。他们称之为“信仰之跃”。</p><p><img src="https://cdn.charbost.com/article-img/ckxt3.jpg" alt="信仰之跃">      </p><p>他们在塔尖飘飞消失，城市的风景情韵尽收眼底，背后是虚无的高塔，火焰，荣耀，前方是被允许的使命。而一个人的好与坏，生与死，无时不在拷问着Ezio的灵魂。是的，他也刺杀过好人，而他更多选择了沉默与忘却。允许，到底谁在允许？导师Altair在多次刺杀后终于有觉悟的说：“我所杀的人都对我说了些奇怪的话。他们都没有后悔。即使快死了，他们也看着对胜利很有自信。法律不是来自于神，而是理性。我现在明白了我们的信条不是要求我们去自由。是要求我们智慧。”一个允字，要么成为刺杀后不觉得罪恶的借口，要么成为超越假象的大智慧。</p><p>游戏情节里有一幕我印象特别深，年迈的Ezio将地下城军火库的首领刺死，单膝跪地抱着他的尸体，缓缓的说：“杀戮是可耻的…”。你能否想象，这是一个手沾鲜血，以刺杀为荣的刺客大师，对着刚被自己刺杀的将亡人说出的一番话。人到了死神降临这一步，才会明白所谓是非成败转头空，才会明白权利和金钱都会在下一次眨眼中灰飞烟灭。而杀人者Ezio此时最想告诉对方的，就是对方杀戮的原罪，不是其他。Ezio此时的眼神不是锋利的，而是坚定如磐石，我想到这一步，头发灰白的Ezio是参透了信条何谓“万事皆允”。Ezio异常从容与坚定，他知道他的杀戮必将会带来救赎，这是上天的允许，也是内心的智慧。刀锋使处，字句溃逃，任何的道理都无法阻止手中将逝的灵魂。</p><p><img src="https://cdn.charbost.com/article-img/ckxt4.jpg" alt="年迈的Ezio">      </p><p>到了这个时候，才知道年过半百的Ezio为什么在君士坦丁堡受这么多人的尊重，才知道为什么他严厉指责因鲁莽而错杀他人的徒弟，不全是因为高明的刺杀艺术，更多的是他比更多年轻人知道内心一个允字的定夺。而最后，Ezio完成了对自己的救赎，英雄迟暮，卸甲归田。一颗颠簸的心，终于泡在村灯狗吠之中。在定夺了这么多人的命运之后，他终于想到了自己，想到了Sophia，想到了佛罗伦萨。如果世上有一个人能阻止他，那这个人肯定是Ezio自己，因而他允许了英雄的离去，从容的卸下袖剑，留下背影，自此，永不回头。而门前的花与阳光在岁月中偷偷窜出，似乎等了他几十年。</p><p>Ezio最后的信：</p><blockquote><p>When I was a young man,<br>当我还是个年轻的小伙子<br>I had liberty, but I did not see it.<br>我拥有自由，却从未认知<br>I had time, but I did not know it.<br>我拥有时间，却毫不知情<br>And I had love, but I did not feel it.<br>而我亦拥有爱，却从未感觉到<br>Many decades would pass before I understood the meaning of all three.<br>直到数十年过去后，我才真正理解这三项的意义<br>And now, the twilight of my life, misunderstanding has past into contentment.<br>而现在，垂暮之年的我，这领悟让我感到满足<br>Love, liberty, and time: once was so disposable, are the fuels that drive me forward.<br>曾经能自由支配的爱，自由以及时间，是支持我前进的动力<br>And love, most especially, mia caro.<br>而爱，是最特别的一个， 亲爱的<br>For you, our children, our brothers and sisters.<br>为你，为我们的孩子以及为我们的兄弟姐妹们<br>And for the vast and wonderful world that gives us lives and keeps us guessing,<br>为这赐予我们生命与惊奇的广阔，精彩的世界<br>endless affection，mio Sofia,<br>至死不渝的挚爱， 我的索菲亚<br>Forever yours, Ezio Auditore<br>永远属于你的， Ezio Auditore                   </p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Nothing is true, everything is permitted.万物皆虚，万事皆允。        &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;—— 《刺客信条2》《刺客信条：兄弟会》《刺客信条：启示录》-Ezio三部曲&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="https://charbo.me/categories/games/"/>
+    
+    
+      <category term="游戏" scheme="https://charbo.me/tags/games/"/>
+    
+  </entry>
+  
+</feed>
