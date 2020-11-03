@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html  lang="zh">
+<head>
+    <meta charset="utf-8">
+<title>记“刺客信条”三部曲：水月镜像，无心去来 - CBLog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+
+    <meta name="description" content="Nothing is true, everything is permitted.万物皆虚，万事皆允。          —— 《刺客信条2》《刺客信条：兄弟会》《刺客信条：启示录》-Ezio三部曲">
+<meta name="keywords" content="游戏">
+<meta property="og:type" content="article">
+<meta property="og:title" content="记“刺客信条”三部曲：水月镜像，无心去来">
+<meta property="og:url" content="https:&#x2F;&#x2F;charbo.me&#x2F;games&#x2F;assassins-creed&#x2F;index.html">
+<meta property="og:site_name" content="CBLog">
+<meta property="og:description" content="Nothing is true, everything is permitted.万物皆虚，万事皆允。          —— 《刺客信条2》《刺客信条：兄弟会》《刺客信条：启示录》-Ezio三部曲">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;cdn.charbost.com&#x2F;article-img&#x2F;ckxt-cover.jpg">
+<meta property="og:updated_time" content="2020-11-03T06:24:43.472Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;cdn.charbost.com&#x2F;article-img&#x2F;ckxt-cover.jpg">
+
+
+
+
+
+<link rel="alternative" href="/rss.xml" title="记“刺客信条”三部曲：水月镜像，无心去来" type="application/atom+xml">
+
+
+
+<link rel="icon" href="/images/echo.png">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.9.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-dark.css">
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/noframework.waypoints.min.js" defer></script>
+<script>
+var before;
+window.onload=function(){
+  var action = throttle(navbarToggle);
+  var waypoint = new Waypoint({
+    element: document.getElementById('container'),
+    handler: function(direction) {
+      if(direction==="down"){
+            before = $(window).scrollTop();
+            document.getElementById('navbar-main').classList.remove("visible");
+            $(window).on("scroll",action);
+      }
+      else if(direction==="up"){
+        document.getElementById('navbar-main').classList.add("visible");
+        before = $(window).scrollTop();
+        //只解除绑定navbar的滚动监听
+        $(window).off("scroll",action);
+      }
+    },
+    offset: -100 
+  });
+  var waypoint2 = new Waypoint({
+    element: document.getElementById('container'),
+    handler: function(direction) {
+      if(direction==="down"){
+        document.getElementById('navbar-main').classList.remove("mobile-logo-visible");
+        document.getElementById('navbar-main').classList.add("mobile-fix-bar");
+      }else if(direction==="up"){
+        document.getElementById('navbar-main').classList.add("mobile-logo-visible");
+        document.getElementById('navbar-main').classList.remove("mobile-fix-bar");    
+      }
+    },
+    offset: 55 
+  });
+}
+function navbarToggle(e){
+  var cur = $(window).scrollTop();
+  var diff = cur-before;
+  //console.log(diff);
+  if (diff>40) {
+    before = cur;
+    document.getElementById('navbar-main').classList.remove("visible");
+    // console.log('下');
+  }else if (diff<-70) {
+    before = cur;
+    document.getElementById('navbar-main').classList.add("visible");
+    // console.log('上');
+  }
+}
+function throttle(fn,wait) {
+  wait = wait === undefined ? 300 : wait;
+  var timer = null;
+  //以下函数当scroll事件触发时执行
+  return function () {
+    var context = this;
+    var args = arguments;
+    if (!timer){
+      timer = setTimeout(function(){
+          fn.apply(context, args);    
+          timer = null;
+      }, wait);
+    } 
+  }
+}
+
+</script>
+
+
+    
+    
+    
+    <style>body>.footer,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+    
+
+    
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+
+    
+    
+    
+    
+
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144334189-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144334189-1');
+</script>
+
+
+    
+    
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+    
+    
+    
+
+    
+    
+    
+        <script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+</head>
+<body class="is-3-column">
+    <nav class="navbar navbar-main visible mobile-logo-visible" id="navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="/images/logo.svg" alt="记“刺客信条”三部曲：水月镜像，无心去来">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item"
+                href="/">主页</a>
+                
+                <a class="navbar-item"
+                href="/archives/">归档</a>
+                
+                <a class="navbar-item"
+                href="/categories/">分类</a>
+                
+                <a class="navbar-item"
+                href="/tags/">标签</a>
+                
+                <a class="navbar-item"
+                href="/about/">关于</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;" target="_blank" rel="noopener">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;" target="_blank" rel="noopener">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+    <section class="section after-header">
+        <div class="container" id="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-9-widescreen has-order-2 column-main"><div class="card">
+    
+    <div class="card-image">
+        <span  class="image is-7by1">
+            <img class="thumbnail" src="https://cdn.charbost.com/article-img/ckxt-cover.jpg" alt="记“刺客信条”三部曲：水月镜像，无心去来">
+        </span>
+    </div>
+    
+    <div class="card-content article ">
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                记“刺客信条”三部曲：水月镜像，无心去来
+            
+        </h1>
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2012-12-18T15:23:00.000Z"><i class="far fa-calendar-alt">&nbsp;</i>2012-12-18</time>
+                
+                <div class="level-item">
+                <i class="far fa-folder-open has-text-grey"></i>&nbsp;
+                <a class="has-link-grey -link" href="/categories/games/">游戏</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    <i class="far fa-clock"></i>&nbsp;
+                    
+                    
+                    17 分钟 读完 (大约 2524 个字)
+                </span>
+                
+                
+                <span class="level-item has-text-grey" id="busuanzi_container_page_pv">
+                    <i class="far fa-eye"></i>
+                    <span id="busuanzi_value_page_pv">0</span>次访问
+                </span>
+                
+            </div>
+        </div>
+        
+        <div class="content">
+            <blockquote>
+<p>Nothing is true, everything is permitted.万物皆虚，万事皆允。        </p>
+</blockquote>
+<p><em>—— 《刺客信条2》《刺客信条：兄弟会》《刺客信条：启示录》-Ezio三部曲</em></p>
+<a id="more"></a>
+
+<p>多年以前，在朋友的推荐下玩了刺客信条这款游戏，感触挺深，后来想一定要为它写点文字。闭眼一想，还是那句话萦回脑中：我们为了服侍光明而耕耘于黑暗……万物皆虚，万事皆允。却不知道这句话该怎么翻译，被游戏寓意为“信条”的话语，相对于它的题材所包含的深度，好像任何翻译都会带来偏差。很难用几句话描述清楚这部作品，它展现了完全不同的世界与价值，过去与现在，生存与死亡，仇恨与宽容，这些宽泛弘毅的对立词相互交织，在刀刃与鲜血中重获新释，浓缩于主人公Ezio的一生。</p>
+<h2 id="虚"><a href="#虚" class="headerlink" title="虚"></a><strong>虚</strong></h2><p>Ezio诞生于文艺复兴时期的佛罗伦萨，作为银行家的富二代，每日就是游手好闲沾花惹草。还记得游戏的第一个任务就是去打架，然后爬上高楼跟姑娘幽会。生活波澜不惊，基调如翡翠般平和，蓝天白云之下的鲜花之城给予了Ezio太多纨绔子弟的气息。而至于后来，当他每次的任务都要手起刀落快意恩仇，然后安抚亡者的灵魂，当他对深爱的Sophia的请求无奈道出对不起我的时间很宝贵，当他在异乡的深夜给妹妹Claudia满怀深情地写信时，你才会发现，他动荡的内心深处，自有一个不曾惊扰的世界，一个不曾惊扰的翡冷翠。那些逝去的日子，在游戏开头略显无聊的情景，恰如一个简朴的别针，固定在心中最纯粹的角落。</p>
+<p><img src="https://cdn.charbost.com/article-img/ckxt1.jpg" alt="奔波到威尼斯的Ezio">  </p>
+<p>以至于说，何以为正义，真理，信仰，自由？这都是些多么美好的词语，然而都不是Ezio最终想要的，又恰好是他，见过了太多为了这些美好而疯狂追逐，最终坠下深渊的人。好奇害死猫，人又何尝不是？因此，创世的神让人间有了死亡。刺客从天而降，帽檐遮住他的眉宇，和平鸽还不知晓下一刻的慌乱，风起风止间，优雅的袖刃已将迷乱的鲜红绽放。</p>
+<p>Ezio更像一个布道者，将“虚”的信条用死亡的方式传谕。而事物的真实与否，本来就无所谓人的好坏。朋友Leonardo是虚的，他花了很多心里发明战争机器，下一刻就想摧毁它们；叔叔Mario是虚的，一个质朴果敢的领路人，在庄园陷落时便虎落平阳；Niccolo也是虚的，一个满腹经纶兢兢业业的刺客首领，却一度被当作内奸。连Ezio本人也是虚的，从佛罗伦萨的起步，到威尼斯的追寻，再到罗马的复兴，最后到君士坦丁堡的迟暮，其实Ezio最终才认识到，自己不也是为所谓的复仇与荣耀努力了一辈子吗？原来那个最先坠入深渊的人，正是Ezio自己。</p>
+<p><img src="https://cdn.charbost.com/article-img/ckxt2.jpg" alt="刺客从天而降">      </p>
+<p>因此，Ezio最后在和害死了父兄的教皇Rodrigo对峙时，留下这句信条而放过了他（最终反被儿子Cesare毒死）。这一刻，不知手染太多鲜血的刺客大师是否想到了多年前的一尘不染的佛罗伦萨。抉择与变卦，过一分钟就不能再回头。Ezio的身后这座辉煌的城市，原本就是他想终结邪恶，获得荣耀的目的地。如今，城市更加辉煌，以往的日子，爱人，自由，却一并失去了踪影。相对于当下，他知道一切于事无补，反而有一种繁花落尽，悄然入土的随性。他赫然发现Nothing is true原来不是对别人的告诫，而是对自己内心深处最无奈的独白。</p>
+<h2 id="允"><a href="#允" class="headerlink" title="允"></a><strong>允</strong></h2><p>任何一个刺客，加入brotherhood时都要完成一个仪式。他们从城市最高的塔尖上俯瞰全城，然后向着塔底的草堆高高跃下。他们在跃下的那一刻伸展手臂，一种近乎疯狂的自由呼啸而来，将烦恼和恐惧抛诸脑后，你很容易联想到鹰的意象。我们总是可以将道理示于别人，却无法说服自己。这种仪式无疑是对自身的勇敢与自由最好的诠释，刺客们以这样的方式向城市宣告，他们的行为准则秉承信仰，允许他们在法律和道德中掌握邪恶者的生杀大权。他们称之为“信仰之跃”。</p>
+<p><img src="https://cdn.charbost.com/article-img/ckxt3.jpg" alt="信仰之跃">      </p>
+<p>他们在塔尖飘飞消失，城市的风景情韵尽收眼底，背后是虚无的高塔，火焰，荣耀，前方是被允许的使命。而一个人的好与坏，生与死，无时不在拷问着Ezio的灵魂。是的，他也刺杀过好人，而他更多选择了沉默与忘却。允许，到底谁在允许？导师Altair在多次刺杀后终于有觉悟的说：“我所杀的人都对我说了些奇怪的话。他们都没有后悔。即使快死了，他们也看着对胜利很有自信。法律不是来自于神，而是理性。我现在明白了我们的信条不是要求我们去自由。是要求我们智慧。”一个允字，要么成为刺杀后不觉得罪恶的借口，要么成为超越假象的大智慧。</p>
+<p>游戏情节里有一幕我印象特别深，年迈的Ezio将地下城军火库的首领刺死，单膝跪地抱着他的尸体，缓缓的说：“杀戮是可耻的…”。你能否想象，这是一个手沾鲜血，以刺杀为荣的刺客大师，对着刚被自己刺杀的将亡人说出的一番话。人到了死神降临这一步，才会明白所谓是非成败转头空，才会明白权利和金钱都会在下一次眨眼中灰飞烟灭。而杀人者Ezio此时最想告诉对方的，就是对方杀戮的原罪，不是其他。Ezio此时的眼神不是锋利的，而是坚定如磐石，我想到这一步，头发灰白的Ezio是参透了信条何谓“万事皆允”。Ezio异常从容与坚定，他知道他的杀戮必将会带来救赎，这是上天的允许，也是内心的智慧。刀锋使处，字句溃逃，任何的道理都无法阻止手中将逝的灵魂。</p>
+<p><img src="https://cdn.charbost.com/article-img/ckxt4.jpg" alt="年迈的Ezio">      </p>
+<p>到了这个时候，才知道年过半百的Ezio为什么在君士坦丁堡受这么多人的尊重，才知道为什么他严厉指责因鲁莽而错杀他人的徒弟，不全是因为高明的刺杀艺术，更多的是他比更多年轻人知道内心一个允字的定夺。而最后，Ezio完成了对自己的救赎，英雄迟暮，卸甲归田。一颗颠簸的心，终于泡在村灯狗吠之中。在定夺了这么多人的命运之后，他终于想到了自己，想到了Sophia，想到了佛罗伦萨。如果世上有一个人能阻止他，那这个人肯定是Ezio自己，因而他允许了英雄的离去，从容的卸下袖剑，留下背影，自此，永不回头。而门前的花与阳光在岁月中偷偷窜出，似乎等了他几十年。</p>
+<p>Ezio最后的信：</p>
+<blockquote>
+<p>When I was a young man,<br>当我还是个年轻的小伙子<br>I had liberty, but I did not see it.<br>我拥有自由，却从未认知<br>I had time, but I did not know it.<br>我拥有时间，却毫不知情<br>And I had love, but I did not feel it.<br>而我亦拥有爱，却从未感觉到<br>Many decades would pass before I understood the meaning of all three.<br>直到数十年过去后，我才真正理解这三项的意义<br>And now, the twilight of my life, misunderstanding has past into contentment.<br>而现在，垂暮之年的我，这领悟让我感到满足<br>Love, liberty, and time: once was so disposable, are the fuels that drive me forward.<br>曾经能自由支配的爱，自由以及时间，是支持我前进的动力<br>And love, most especially, mia caro.<br>而爱，是最特别的一个， 亲爱的<br>For you, our children, our brothers and sisters.<br>为你，为我们的孩子以及为我们的兄弟姐妹们<br>And for the vast and wonderful world that gives us lives and keeps us guessing,<br>为这赐予我们生命与惊奇的广阔，精彩的世界<br>endless affection，mio Sofia,<br>至死不渝的挚爱， 我的索菲亚<br>Forever yours, Ezio Auditore<br>永远属于你的， Ezio Auditore                   </p>
+</blockquote>
+
+        </div>
+        
+        
+        <hr style="height:1px;margin:1rem 0"/>
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <i class="fas fa-tags has-text-grey"></i>&nbsp;
+                    <a class="has-link-grey -link" href="/tags/games/" rel="tag">游戏</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/hexo/config/thumbnail/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">Adding a Thumbnail to Your Article</span>
+            </a>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<div id="valine-thread" class="content"></div>
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.15.0/dist/av-min.js"></script>
+<script src="/js/Valine.js" defer></script>
+
+<script>
+    
+    var emoticon_list=["吐.png", "喷血.png", "狂汗.png", "不说话.png", "汗.png", "坐等.png", "献花.png", "不高兴.png", "中刀.png", "害羞.png", "皱眉.png", "小眼睛.png", "中指.png", "尴尬.png", "瞅你.png", "想一想.png", "中枪.png", "得意.png", "肿包.png", "扇耳光.png", "亲亲.png", "惊喜.png", "脸红.png", "无所谓.png", "便便.png", "愤怒.png", "蜡烛.png", "献黄瓜.png", "内伤.png", "投降.png", "观察.png", "看不见.png", "击掌.png", "抠鼻.png", "邪恶.png", "看热闹.png", "口水.png", "抽烟.png", "锁眉.png", "装大款.png", "吐舌.png", "无奈.png", "长草.png", "赞一个.png", "呲牙.png", "无语.png", "阴暗.png", "不出所料.png", "咽气.png", "期待.png", "高兴.png", "吐血倒地.png", "哭泣.png", "欢呼.png", "黑线.png", "喜极而泣.png", "喷水.png", "深思.png", "鼓掌.png", "暗地观察.png"];
+    $(function() { 
+        new Valine({
+            av: AV, 
+            el: '#valine-thread' ,
+            notify: false,
+            verify: false,
+            app_id: '4hB0QbpFRpN2Ys1YvUM4DyeG-MdYXbMMI',
+            app_key: 'CerHy252ODKOIlKlnYomzvn7',
+            placeholder: 'Feel free to talk',
+            lang: "zh-cn",
+            maxNest: 3,
+            pageSize: 5,
+            // emoticon_url: 'https://charbo.me/alu',
+            emoticon_url: 'https://cloud.panjunwen.com/alu',
+            emoticon_list: emoticon_list,
+        });
+    });
+    //跳转到评论
+    // var urlHash = window.location.hash;
+    // if(urlHash){
+    //     var target =decodeURIComponent(window.location.hash);
+    //     var checkExist = setInterval(function() {
+    //     if ($(target).length) {
+    //         $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+    //         clearInterval(checkExist);
+    //     }
+    //     }, 100);
+    // }  
+ 
+</script>
+
+    </div>
+</div>
+
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered" style="flex-shrink: 1">
+                <div>
+                    
+                        
+                            <img class="is-rounded image is-96x96 has-mb-6" src="/images/avatar.png" alt="Charbo">
+                        
+                    
+                    
+                    <p class="is-size-4 is-block">
+                        Charbo
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-block">
+                        Destiny always finds a way
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-flex is-flex-center has-text-grey" style="padding-top: 0.25rem">
+                        <i class="fas fa-map-marker-alt has-mr-7"></i>
+                        <span>Ningbo, China</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </nav>
+        <nav class="level menu-list is-mobile" style="margin-bottom:1rem">
+            <div class="level-item has-text-centered is-marginless">
+                <a href="/archives/">
+                    <p class="heading">
+                        文章
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        4
+                    </p>
+                </a>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <a href="/categories/">
+                    <p class="heading">
+                        分类
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        5
+                    </p>
+                </a>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <a href="/tags/">
+                    <p class="heading">
+                        标签
+                    </p>
+                    <p class="title has-text-weight-normal">
+                        3
+                    </p>
+                </a>
+            </div>
+        </nav>
+        <div class="level">
+            <a class="level-item button is-link is-rounded" href="https://www.github.com/Charbo23" target="_blank">
+                <i class="fab fa-github"></i>&nbsp;&nbsp;Follow</a>
+        </div>
+        
+        
+        <div class="level is-mobile">
+            
+            <a class="level-item button is-white is-marginless" target="_blank"
+                title="Github" href="https://www.github.com/Charbo23">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank"
+                title="Facebook" href="https://www.facebook.com/Charbo233">
+                
+                <i class="fab fa-facebook"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank"
+                title="Twitter" href="https://twitter.com/Charbo233">
+                
+                <i class="fab fa-twitter"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank"
+                title="RSS" href="/rss.xml">
+                
+                <i class="fas fa-rss"></i>
+                
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+
+    
+        
+<div class="card widget column-left is-sticky" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex toc-item" data-href="#虚">
+        <span class="has-mr-6">1</span>
+        <span>虚</span>
+        </a></li><li>
+        <a class="is-flex toc-item" data-href="#允">
+        <span class="has-mr-6">2</span>
+        <span>允</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar@8.4.0/dist/smooth-scrollbar.js"></script>
+<script src="/js/toc.js" defer></script>
+
+
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen ">
+        
+        </div>
+    
+</div>
+
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="/images/logo.svg" alt="记“刺客信条”三部曲：水月镜像，无心去来">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2020 Charbo&nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
+                
+                <br>
+                <span id="busuanzi_container_site_uv">
+                共<span id="busuanzi_value_site_uv">0</span>个访客
+                <span id="busuanzi_value_site_pv">0</span>次访问
+                </span>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        
+                        <i class="fab fa-creative-commons"></i>&nbsp;<i class="fab fa-creative-commons-by"></i>&nbsp;<i class="fab fa-creative-commons-nc"></i>&nbsp;<i class="fab fa-creative-commons-sa"></i>&nbsp;
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Charbo23 GitHub" href="https://www.github.com/Charbo23">
+                        
+                        <i class="fab fa-github"></i>&nbsp;
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+
+    
+    
+
+    
+    
+    
+    <script src="/js/animation.js"></script>
+    
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+    <script src="/js/gallery.js" defer></script>
+    
+
+    
+    
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/" target="_blank" rel="noopener">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+});
+</script>
+
+    
+    
+
+<a id="back-to-top" title="回到顶端" href="javascript:;" target="_self">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+    <script src="/js/clipboard.js" defer></script>
+    
+
+    
+    
+    
+
+    
+
+
+<script src="/js/main.js" defer></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+</body>
+</html>
